@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const Counter = () => {
-  const [count, setCount] = useState(10);
+  const [count, setCount] = useState(0);
   const getColor = () =>{
     if(count>0) return "text-green-500"
     
